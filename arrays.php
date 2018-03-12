@@ -4,7 +4,12 @@
   </head>
   <body>
     <?php
-      $array = array("Egg", "Tomato", "Beans");
+      $lunch = array("Egg", "Tomato", "Beans");
+      echo $lunch[1];
+      echo $lunch{0};
+      $lunch[2] = "Beans? Fuck beans we're having gouda cheese on this.";
+      echo $lunch[2];
+
     ?>    
   </body>
 </html>
