@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link type='text/css' rel='stylesheet' href='style.css'/>
+  <head>
 		<title>PHP FTW!</title>
 	</head>
 	<body>
