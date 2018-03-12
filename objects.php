@@ -17,10 +17,14 @@
                $this->lastname = $lastname;
                $this->age = $age;
              }
+
+             public function greet() {
+               return "Hello, my name is " . $this->firstname . " " . $this->lastname . ". Nice to meet you! :-)";
+             }
             }
-            $teacher = new Person();
-            $student = new Person();
-            echo $teacher->isAlive;
+            $teacher = new Person('boring', 'teacher', 12345);
+            $student = new Person('colin', 'isawesome', 1000);
+            echo $student->greet();
         ?>
       </p>
     </body>
