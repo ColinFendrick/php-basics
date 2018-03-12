@@ -14,7 +14,7 @@
               // Returning text
               echo $myName;
               echo $myAge;
-              
+
               // Conditionals
               $items = 8;
               if ($items > 5) {
@@ -38,6 +38,25 @@
                 default:
                   echo "The value isn't 0, 1 or 2";
               }
+
+              //Switch falling through
+              $int = 8;
+              switch($int):
+                case 0:
+                  echo 'I don\'t know if I like this';
+                  break;
+                case 1:
+                case 2:
+                case 3:
+                  echo 'int is somewhere between 1 and 3';
+                  break;
+                case 4:
+                case 5:
+                  echo 'int is eiether 4 or 5';
+                  break;
+                default:
+                  echo 'I don\'t know how much \$int is';
+                  break;
 
             ?>
         </p>   
