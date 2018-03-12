@@ -57,6 +57,7 @@
                 default:
                   echo 'I don\'t know how much \$int is';
                   break;
+              endswitch;
 
             ?>
         </p>   
